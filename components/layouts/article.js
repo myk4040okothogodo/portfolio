@@ -33,4 +33,4 @@ const variants = {
       </motion.article>
     )
 
-  export default Layout
+export default Layout
