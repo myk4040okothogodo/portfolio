@@ -27,7 +27,7 @@ const variants = {
             <meta property="og:title" content={title} />
           </Head>
          )}
-         {children}
+    {children}
          <GridItemStyle />
         </>
       </motion.article>
