@@ -13,13 +13,13 @@ import {
   useColorModeValue
 } from '@chakra-ui/react';
 import { ChevronRightIcon } from '@chakra-ui/icons';
-import { BioSection, BioYear} from '../components/bio'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/youtube.png'
-import { GridItem } from '../components/grid-item'
-import Layout from '../components/layouts/article'
-import Section from '../components/section'
-import Paragraph from '../components/Paragraph'
+import { BioSection, BioYear} from '../components/bio';
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5';
+//import thumbYouTube from '../public/images/youtube2.png';
+import { GridItem } from '../components/grid-item';
+import Layout from '../components/layouts/article';
+import Section from '../components/section';
+import Paragraph from '../components/Paragraph';
 
 const Home = () => (
   <Layout>
@@ -32,27 +32,28 @@ const Home = () => (
         bg = {useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         
       >
-      Hello, I&apos;m a Full-Stack Engineer based in Nairobi, kenya!.
+      Hello,I&apos;m a Full-Stack Engineer based in Nairobi,kenya!.
     </Box>
     <Box display={{ md: 'flex'}}>
       <Box flexGrow={1}>
         <Heading as ="h2" variant="page-title">
           Mike Okoth Ogodo
         </Heading>
-        <p>(Electrical & Electronics Engineer | Telecommunications Engineer | Software Engineer)</p>
+        <p>(Electrical&Electronics Engineer | Telecommunications Engineer | Software Engineer)</p>
     </Box>
     <Box 
 
      flexShrink = {0}
-     mt = {{ base: 4, md: 0}}
+     mt = {{ base: 6, md: 0}}
      ml = {{ md: 6}}
      textAlign = "center"
      >
       <Image
-       borderColor = "whiteAlpha.800"
+       borderColor = "whiteAlpha.900"
        borderWidth = {2}
        borderStyle="solid"
-       maxWidth ="100px"
+       maxWidth ="150px"
+       maxHeight="450px"
        display = "inline-block"
        borderRadius = "full"
        src = "/images/profile.jpg"
@@ -60,7 +61,7 @@ const Home = () => (
        />
     </Box>
    </Box>
-  <Section delay ={0.1}>
+  <Section delay ={0.2}>
     <Heading as="h3" variant="section-title">
       Work
     </Heading>
@@ -103,7 +104,7 @@ const Home = () => (
      </BioSection>
     <BioSection>
       <BioYear>2018-2019</BioYear>
-       worked at jamii telecommunications lte
+       Worked at Jamii Telecommunications ltd.
     </BioSection>
    </Section>
 
@@ -113,11 +114,11 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
+          <Link href="https://github.com/myk4040okothogodo" target="_blank">
             Drawing
           </Link>
          ,  Finance(Behavioral Finance),{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
+          <Link href="https://github.com/myk4040okothogodo" target="_blank">
             Rocket Science and Space exploration
           </Link>
           , Machine Learning
@@ -174,15 +175,6 @@ const Home = () => (
           </ListItem>
         </List>
 
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="TaofCode"
-            thumbnail={thumbYouTube}
-          >
-            My YouTube channel
-          </GridItem>
-        </SimpleGrid>
         <Box align="center" my={4}>
           <NextLink href="/posts">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">

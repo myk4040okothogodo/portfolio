@@ -13,13 +13,13 @@ import {
   useColorModeValue
 } from '@chakra-ui/react';
 import { ChevronRightIcon } from '@chakra-ui/icons';
-import { BioSection, BioYear} from '../components/bio'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/youtube.png'
-import { GridItem } from '../components/grid-item'
-import Layout from '../components/layouts/article'
-import Section from '../components/section'
-import Paragraph from '../components/Paragraph'
+import { BioSection, BioYear} from '../components/bio';
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5';
+//import thumbYouTube from '../public/images/youtube2.png';
+import { GridItem } from '../components/grid-item';
+import Layout from '../components/layouts/article';
+import Section from '../components/section';
+import Paragraph from '../components/Paragraph';
 
 const Home = () => (
   <Layout>
@@ -32,46 +32,48 @@ const Home = () => (
         bg = {useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         
       >
-      Hello, I&apos;m a full-stack developer based in Nairobi, kenya!.
+      Hello,I&apos;m a Full-Stack Engineer based in Nairobi,kenya!.
     </Box>
     <Box display={{ md: 'flex'}}>
       <Box flexGrow={1}>
         <Heading as ="h2" variant="page-title">
-          Takuya Matsuyama
+          Mike Okoth Ogodo
         </Heading>
-        <p> Philisophical Engineer ( Electrical & Electronics Engineer | Telecommunications Engineer | Software Engineer)</p>
+        <p>(Electrical&Electronics Engineer | Telecommunications Engineer | Software Engineer)</p>
     </Box>
     <Box 
 
      flexShrink = {0}
-     mt = {{ base: 4, md: 0}}
+     mt = {{ base: 6, md: 0}}
      ml = {{ md: 6}}
      textAlign = "center"
      >
       <Image
-       borderColor = "whiteAlpha.800"
+       borderColor = "whiteAlpha.900"
        borderWidth = {2}
        borderStyle="solid"
-       maxWidth ="100px"
+       maxWidth ="150px"
+       maxHeight="300px"
        display = "inline-block"
        borderRadius = "full"
-       src = ""
+       src = "/images/profile.jpg"
        alt = "Profile image"
        />
     </Box>
    </Box>
-  <Section delay ={0.1}>
+  <Section delay ={0.2}>
     <Heading as="h3" variant="section-title">
       Work
     </Heading>
     <Paragraph>
-      Okoth is a graduate Engineer who  holds two degrees (Electrical&Electronics Engineering) and another in(Telecommunications and Information Engineering),
-      He is also  a Software Engineer concetrating on the Python/Javascript stack. He has a deep interest in all things technology and enjoys solving
-      societal problems using technology as a tool, starting from designing  all the way to implementation. When not building, you can find him
-      outdoors playing football, bike-riding and philosophising about the great questions of life.
-    <NextLink href="/works/vuuna">
+      Okoth Ogodo is a graduate Engineer who holds two degrees (Electrical&Electronics Engineering) and another in(Telecommunications and Information Engineering),
+      He is also a Software Engineer concetrating on the Python/Javascript stack.He has a deep interest in all things technology and enjoys solving
+      societal problems using technology as a tool, starting from designing  all the way to implementation.When not building,you can find him
+      outdoors playing football,bike-riding and philosophising about the great questions of life.
+   
+     <NextLink href="/works/vuuna">
        <Link>Vuuna</Link>
-    </NextLink>
+     </NextLink>
    .
     </Paragraph>
   <Box align="center" my={4}>
@@ -92,15 +94,17 @@ const Home = () => (
     </BioSection>
     <BioSection>
       <BioYear>2018</BioYear>
-       Completed the first degree in Telecommunications and Information Engineering degree
+       Completed the first degree in Telecommunications and Information Engineering 
        from Jommo kenyatta university of Agriculture and Technology.
-      <BioYear>2020</BioYear>
-       Completed the second degree in Electrical and Electronics Engineering degree
-       from Jommo kenyatta university of Agriculture and Technology. 
     </BioSection>
     <BioSection>
+        <BioYear>2020</BioYear>
+        Completed the second degree in Electrical and Electronics Engineering                                                                                  
+        from Jommo kenyatta university of Agriculture and Technology. 
+     </BioSection>
+    <BioSection>
       <BioYear>2018-2019</BioYear>
-       worked at jamii telecommunications lte
+       Worked at Jamii Telecommunications ltd.
     </BioSection>
    </Section>
 
@@ -110,11 +114,11 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
+          <Link href="https://github.com/myk4040okothogodo" target="_blank">
             Drawing
           </Link>
-          , Finance(Behavioral Finance),{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
+         ,  Finance(Behavioral Finance),{' '}
+          <Link href="https://github.com/myk4040okothogodo" target="_blank">
             Rocket Science and Space exploration
           </Link>
           , Machine Learning
@@ -126,67 +130,50 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/myk4040okothogodo" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoGithub} />}
               >
-                @craftzdog
+                @myk4040okothogodo
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link href="https://twitter.com/vuuna" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoTwitter} />}
               >
-                @inkdrop_app (English)
+                @vuuna_app 
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
+            <Link href="https://twitter.com/myk_okoth" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoTwitter} />}
               >
-                @craftzdog (日本語)
+                @myk_okoth
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
+            <Link href="https://instagram.com/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoInstagram} />}
               >
-                @craftzdog
+                @mykokoth
               </Button>
             </Link>
           </ListItem>
         </List>
-
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
-            thumbnail={thumbYouTube}
-          >
-            My YouTube channel
-          </GridItem>
-          <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
-            thumbnail = {thumbYouTube}
-          >
-            A Markdown note-taking app
-          </GridItem>
-        </SimpleGrid>
 
         <Box align="center" my={4}>
           <NextLink href="/posts">
