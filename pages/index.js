@@ -32,7 +32,7 @@ const Home = () => (
         bg = {useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         
       >
-      Hello,I&apos;m a Full-Stack Engineer based in Nairobi,kenya!.
+      Hello,I&apos;m a Full-Stack Engineer based in Nairobi,Kenya!.
     </Box>
     <Box display={{ md: 'flex'}}>
       <Box flexGrow={1}>
