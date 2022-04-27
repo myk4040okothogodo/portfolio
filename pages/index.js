@@ -115,13 +115,9 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Art, Music,{' '}
-          <Link href="https://github.com/myk4040okothogodo" target="_blank">
             Drawing
-          </Link>
          ,  Finance(Behavioral Finance),{' '}
-          <Link href="https://github.com/myk4040okothogodo" target="_blank">
             Rocket Science and Space exploration
-          </Link>
           , Machine Learning
         </Paragraph>
       </Section>
