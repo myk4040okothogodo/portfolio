@@ -138,17 +138,6 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/vuuna" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<Icon as={IoLogoTwitter} />}
-              >
-                @vuuna_app 
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
             <Link href="https://twitter.com/myk_okoth" target="_blank">
               <Button
                 variant="ghost"
