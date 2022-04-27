@@ -66,12 +66,11 @@ const Home = () => (
       Work
     </Heading>
     <Paragraph>
-      I am a Full-Stack Engineer holding an Electrical&Electronics Engineering and a Telecommunications and Information Engineering degree,
-      He is also a Software Engineer using the Python|Golang|PHP to construct backend apps and Javascript to build front end apps,he has a deep interest in all things technology and enjoys solving
-      societal problems using technology as a tool, starting from designing  all the way to implementation, when not building,you can find him
+      I am a Full-Stack Engineer holding an Electrical&Electronics Engineering degree and a Telecommunications and Information Engineering degree,
+      I am also a Software Engineer using the Python|Golang|PHP to construct backend apps and Javascript to build front end apps,I have has a deep interest in all things technology and enjoys solving
+      societal problems using technology as a tool, starting from design all the way to implementation, when not building,you can find me
       outdoors playing football,bike-riding and philosophising about the great questions of life.
-  
-      </Paragraph>
+    </Paragraph>
 {/*
      <NextLink href="/works/vuuna">
        <Link>Vuuna</Link>
