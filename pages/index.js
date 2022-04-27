@@ -95,16 +95,20 @@ const Home = () => (
     <BioSection>
       <BioYear>2018</BioYear>
        Completed the first degree in Telecommunications and Information Engineering 
-       from Jommo kenyatta university of Agriculture and Technology.
+       from Jomo kenyatta university of Agriculture and Technology.
     </BioSection>
     <BioSection>
         <BioYear>2020</BioYear>
         Completed the second degree in Electrical and Electronics Engineering                                                                                  
-        from Jommo kenyatta university of Agriculture and Technology. 
+        from Jomo kenyatta university of Agriculture and Technology. 
      </BioSection>
     <BioSection>
       <BioYear>2018-2019</BioYear>
        Worked at Jamii Telecommunications ltd.
+    </BioSection>
+    <BioSection>
+      <BioYear>2020 - todate</BioYear>
+       Freelance Software Engineer.
     </BioSection>
    </Section>
 
