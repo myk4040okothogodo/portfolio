@@ -39,7 +39,7 @@ const Home = () => (
         <Heading as ="h2" variant="page-title">
           Mike Okoth Ogodo
         </Heading>
-        <p>(Electrical& Telecomunications Engineer | software Engineer)</p>
+        <p>(Electrical&Telecomunications Engineer | Software Engineer)</p>
     </Box>
     <Box 
 
