@@ -164,6 +164,8 @@ const Home = () => (
           </ListItem>
         </List>
 
+
+
         <Box align="center" my={4}>
           <NextLink href="/posts">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
